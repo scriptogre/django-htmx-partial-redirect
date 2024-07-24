@@ -1,6 +1,10 @@
+[project.urls]
+Homepage = "https://github.com/scriptogre/django-htmx-partial-redirect"
+Repository = "https://github.com/scriptogre/django-htmx-partial-redirect.git"
+
 [tool.poetry]
 name = "django-htmx-partial-redirect"
-version = "0.1.0"
+version = "0.1.1"
 description = "`django-htmx-partial-redirect` is a middleware that redirects direct accesses to partial views (like login modals) to a full page, where the partial content is then lazy-loaded via HTMX, solving the issue of empty pages when accessing modal-intended views directly."
 authors = ["Christian Tanul <contact@tanulchristian.dev>"]
 license = "MIT"
